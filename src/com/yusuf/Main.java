@@ -2,16 +2,18 @@ package com.yusuf;
 
 import java.util.Scanner;
 
-public class Main {
-
+public class SimpleBot {
     public static void main(String[] args) {
-        System.out.println("Whats is your name?");
-
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Hello! My name is Java Bot.");
+        System.out.println("I was created in 2021.");
+        System.out.println("Please, remind me your name.");
+
+        // reading a name
         String name = scanner.next();
 
-        System.out.println("Hello, " + name + "!");
-
-
+        System.out.println("What a great name you have, " + name + "!");
     }
 }
+

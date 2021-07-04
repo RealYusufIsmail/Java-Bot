@@ -2,7 +2,7 @@ package com.yusuf;
 
 import java.util.Scanner;
 
-public class SimpleBot {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,6 +14,16 @@ public class SimpleBot {
         String name = scanner.next();
 
         System.out.println("What a great name you have, " + name + "!");
+
+        System.out.println("I can do math. Want to see, " + name + "?");
+        String yes = scanner.next();
+        String no = scanner.next();
+
+        if (scanner.equals(yes)) {
+
+        }
+
+
     }
 }
 

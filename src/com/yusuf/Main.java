@@ -19,8 +19,15 @@ public class Main {
         String yes = scanner.next();
         String no = scanner.next();
 
-        if (scanner.equals(yes)) {
-
+        String input = scanner.next();
+        if (input.equalsIgnoreCase(yes)) {
+         // do yes stuff
+            System.out.println("test");
+        } else if (input.equalsIgnoreCase(no)) {
+            // do no stuff
+            System.out.println("Oh well there is always a next time");
+        } else {
+            System.out.println("error");
         }
 
 

@@ -41,17 +41,11 @@ public class Main {
             System.out.println(goodBye);
         } else if((Math.equals("yes"))){
             System.out.println("I will do 10 * 10.");
-
             System.out.println(10 * 10);
         } else {
             System.out.println(wrongAnswer);
         };
-
-
-
-
-
-
+        System.out.println("That's it for today");
     }
 }
 

@@ -6,6 +6,9 @@ public class Main {
 
 
     public static void main(String[] args) {
+        //repeated strings
+        String goodBye = "Goodbye have a nice day";
+        String wrongAnswer = "You never provided a right answer.";
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Hello! My name is Yusuf Bot.");
@@ -16,7 +19,6 @@ public class Main {
         String name = scanner.next();
 
         System.out.println("What a great name you have, " + name + "!");
-        String goodBye = "Goodbye have a nice day";
         String jokeQuestion = "Would you like for me to say a joke";
         String answerSample = "Please reply with yes or no";
         System.out.println(jokeQuestion);
@@ -25,11 +27,12 @@ public class Main {
         String Joke = scanner.next();
         if (Joke.equals("no")) {
             System.out.println("Well there might be a next time.");
-        } else if((Joke.equals("yes"))){
+        } else if ((Joke.equals("yes"))) {
             System.out.println("Well i one said How is thy. People found it funny.");
         } else {
-            System.out.println("404 error");
-        };
+            System.out.println(wrongAnswer);
+        }
+
 
         System.out.println("Shall i do some math " + name);
         String Math = scanner.next();
@@ -41,7 +44,7 @@ public class Main {
 
             System.out.println(10 * 10);
         } else {
-            System.out.println("404 error");
+            System.out.println(wrongAnswer);
         };
 
 

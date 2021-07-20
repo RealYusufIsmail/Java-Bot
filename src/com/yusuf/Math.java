@@ -9,7 +9,19 @@ public class Math {
         int number = 12241;
         int digit = ((number % 100) / 10) % 10;
         System.out.println(digit);
-
-
+        /*
+        int a = -1;
+        System.out.println(1 - a++);
+        int n = 0;
+        System.out.print(++n);
+        System.out.print(n++);
+        System.out.print(n++);
+        int k = 3;
+        System.out.print(++k);
+        */
+        int a = 300;
+        int b = a++;
+        int c = --b;
+        System.out.println(c);
     }
 }

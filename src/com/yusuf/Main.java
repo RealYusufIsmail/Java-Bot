@@ -27,15 +27,21 @@ public class Main {
             System.out.println("Well there might be a next time.");
         } else if((Joke.equals("yes"))){
             System.out.println("Well i one said How is thy. People found it funny.");
+        } else {
+            System.out.println("404 error");
         };
-        System.out.println("Shall i do some math.");
+
+        System.out.println("Shall i do some math " + name);
         String Math = scanner.next();
         if (Math.equals("no")) {
             System.out.println("Ok");
             System.out.println(goodBye);
         } else if((Math.equals("yes"))){
             System.out.println("I will do 10 * 10.");
+
             System.out.println(10 * 10);
+        } else {
+            System.out.println("404 error");
         };
 
 

@@ -45,6 +45,7 @@ public class Main {
         } else {
             System.out.println(wrongAnswer);
         };
+
         System.out.println("That's it for today.");
         System.out.println(ownerCredit);
     }

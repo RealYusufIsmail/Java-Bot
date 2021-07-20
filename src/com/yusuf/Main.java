@@ -16,20 +16,29 @@ public class Main {
         String name = scanner.next();
 
         System.out.println("What a great name you have, " + name + "!");
+        String goodBye = "Goodbye have a nice day";
         String jokeQuestion = "Would you like for me to say a joke";
         String answerSample = "Please reply with yes or no";
         System.out.println(jokeQuestion);
         System.out.println(answerSample);
 
-        String Value = scanner.next();
-        if (Value.equals("no")) {
+        String Joke = scanner.next();
+        if (Joke.equals("no")) {
             System.out.println("Well there might be a next time.");
-        } else if((Value.equals("yes"))){
+        } else if((Joke.equals("yes"))){
             System.out.println("Well i one said How is thy. People found it funny.");
-            // yep
         };
-        String goodBye = "Goodbye have a nice day";
-        System.out.println(goodBye);
+        System.out.println("Shall i do some math.");
+        String Math = scanner.next();
+        if (Math.equals("no")) {
+            System.out.println("Ok");
+            System.out.println(goodBye);
+        } else if((Math.equals("yes"))){
+            System.out.println("I will do 10 * 10.");
+            System.out.println(10 * 10);
+        };
+
+
 
 
 

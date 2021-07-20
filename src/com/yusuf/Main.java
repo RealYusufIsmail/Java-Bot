@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Hello! My name is Yusuf Bot.");
         System.out.println("I was created in 2021.");
-        System.out.println("Please, remind me your name.");
+        System.out.println("Please, remind me your first name.");
 
         // reading a name
         String name = scanner.next();

@@ -1,15 +1,14 @@
 package com.yusuf;
 
 import java.util.Scanner;
-
 public class Main {
-
 
     public static void main(String[] args) {
         //repeated strings
         String goodBye = "Goodbye have a nice day";
         String wrongAnswer = "You never provided a right answer.";
         String answerSample = "Please reply with yes or no";
+        String ownerCredit = "This bot was made by Yusuf Arfan Ismail.";
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Hello! My name is Yusuf Bot.");
@@ -47,6 +46,7 @@ public class Main {
             System.out.println(wrongAnswer);
         };
         System.out.println("That's it for today.");
+        System.out.println(ownerCredit);
     }
 }
 

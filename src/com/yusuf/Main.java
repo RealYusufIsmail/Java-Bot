@@ -9,6 +9,7 @@ public class Main {
         //repeated strings
         String goodBye = "Goodbye have a nice day";
         String wrongAnswer = "You never provided a right answer.";
+        String answerSample = "Please reply with yes or no";
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Hello! My name is Yusuf Bot.");
@@ -20,7 +21,6 @@ public class Main {
 
         System.out.println("What a great name you have, " + name + "!");
         String jokeQuestion = "Would you like for me to say a joke";
-        String answerSample = "Please reply with yes or no";
         System.out.println(jokeQuestion);
         System.out.println(answerSample);
 
@@ -35,6 +35,7 @@ public class Main {
 
 
         System.out.println("Shall i do some math " + name);
+        System.out.println(answerSample);
         String Math = scanner.next();
         if (Math.equals("no")) {
             System.out.println("Ok");

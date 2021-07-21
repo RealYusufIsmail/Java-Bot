@@ -45,8 +45,6 @@ public class Main {
             System.out.println(wrongAnswer);
         };
 
-        System.out.println("That's it for today.");
-        System.out.println(ownerCredit);
 
         System.out.println("Would you like me to guess your age");
         String Age = scanner.next();
@@ -55,6 +53,9 @@ public class Main {
         } else if(Age.equals("yes")) {
 
         }
+
+        System.out.println("That's it for today.");
+        System.out.println(ownerCredit);
     }
 }
 

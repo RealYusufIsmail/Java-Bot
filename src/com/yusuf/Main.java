@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Please, remind me your first name.");
 
         // reading a name
-        String name = scanner.next();
+        String name  = scanner.next();
 
         System.out.println("What a great name you have, " + name + "!");
         String jokeQuestion = "Would you like for me to say a joke";
@@ -51,7 +51,7 @@ public class Main {
         if (Age.equals("no")) {
             System.out.println(noAnswer);
         } else if(Age.equals("yes")) {
-
+            
         }
 
         System.out.println("That's it for today.");

@@ -9,6 +9,7 @@ public class Main {
         String wrongAnswer = "You never provided a right answer.";
         String answerSample = "Please reply with yes or no";
         String ownerCredit = "This bot was made by Yusuf Arfan Ismail.";
+        String noAnswer = "Well there might be a next time.";
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Hello! My name is Yusuf Bot.");
@@ -25,20 +26,18 @@ public class Main {
 
         String Joke = scanner.next();
         if (Joke.equals("no")) {
-            System.out.println("Well there might be a next time.");
+            System.out.println(noAnswer);
         } else if ((Joke.equals("yes"))) {
             System.out.println("Well i one said How is thy. People found it funny.");
         } else {
             System.out.println(wrongAnswer);
         }
 
-
         System.out.println("Shall i do some math " + name);
         System.out.println(answerSample);
         String Math = scanner.next();
         if (Math.equals("no")) {
-            System.out.println("Ok");
-            System.out.println(goodBye);
+            System.out.println(noAnswer);
         } else if((Math.equals("yes"))){
             System.out.println("I will do 10 * 10.");
             System.out.println(10 * 10);
@@ -48,6 +47,14 @@ public class Main {
 
         System.out.println("That's it for today.");
         System.out.println(ownerCredit);
+
+        System.out.println("Would you like me to guess your age");
+        String Age = scanner.next();
+        if (Age.equals("no")) {
+            System.out.println(noAnswer);
+        } else if(Age.equals("yes")) {
+
+        }
     }
 }
 
